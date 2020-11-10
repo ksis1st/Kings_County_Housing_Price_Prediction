@@ -52,17 +52,17 @@ The following process were carried out :
 - Feature Scaling: Transforming the train and test set, and add on the id and price variables
 - Multicollinearity :using heat map for checking multi_collinearity between variables
 
-![](README_images\Col_Rel.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_Images/Col_Rel.png)
 
 **Over all Observation: here we can see that there is a strong & positive monotonic relationship between the price_in_millions and other features like sqft_living , sqft_above & sqft_living15**
 
 **The important features to focus on seem to be sqft_living, , grade , view , lat,** 
 
-![](README_images\Lasso_Select1.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Lasso_Select1.png)
 
 #### Lasso model was used to confirm the same
 
-![](README_images\Lasso_Select-1604680131206.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Lasso_Select-1604680131206.png)
 
 
 
@@ -82,7 +82,7 @@ The following process were carried out :
 
 - 
 
-- ![](README_images\Partial Regression Sqft Living.png)
+- ![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Partial Regression Sqft Living.png)
 
   **Observation**
 
@@ -111,18 +111,18 @@ The following process were carried out :
 
 - Both skew and kurtosis can be analyzed through descriptive statistics. Acceptable values of skewness fall between − 3 and + 3, and kurtosis is appropriate from a range of − 10 to + 10 when utilizing SEM (Brown, 2006).
 
-![](README_images\n.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\n.png)
 
-![](README_imges\Normalisation.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_imges\Normalisation.png)
 
 - **KDE - Plotting histogram _ to check the distribution of predictors**
 
-![](README_images\KDE.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\KDE.png)
 
 - Testing linearity assumption
 - Jointplot - Checking for Linearity 
 
-![](README_images\JointPlot.png)
+![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\JointPlot.png)
 
 
 
