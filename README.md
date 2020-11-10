@@ -62,7 +62,7 @@ The following process were carried out :
 
 #### Lasso model was used to confirm the same
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Lasso_Select-1604680131206.png)
+![](README_images/Lasso_Select-1604680131206.png)
 
 
 
@@ -82,7 +82,7 @@ The following process were carried out :
 
 - 
 
-- ![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Partial Regression Sqft Living.png)
+- ![](README_images/Partial Regression Sqft Living.png)
 
   **Observation**
 
@@ -111,18 +111,18 @@ The following process were carried out :
 
 - Both skew and kurtosis can be analyzed through descriptive statistics. Acceptable values of skewness fall between − 3 and + 3, and kurtosis is appropriate from a range of − 10 to + 10 when utilizing SEM (Brown, 2006).
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\n.png)
+![](README_images/n.png)
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_imges\Normalisation.png)
+![](README_imges/Normalisation.png)
 
 - **KDE - Plotting histogram _ to check the distribution of predictors**
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\KDE.png)
+![](README_images/KDE.png)
 
 - Testing linearity assumption
 - Jointplot - Checking for Linearity 
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\JointPlot.png)
+![](README_images/JointPlot.png)
 
 
 
