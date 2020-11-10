@@ -52,17 +52,17 @@ The following process were carried out :
 - Feature Scaling: Transforming the train and test set, and add on the id and price variables
 - Multicollinearity :using heat map for checking multi_collinearity between variables
 
-![](\README_images\Col_Rel.png)
+![](README_images\Col_Rel.png)
 
 **Over all Observation: here we can see that there is a strong & positive monotonic relationship between the price_in_millions and other features like sqft_living , sqft_above & sqft_living15**
 
 **The important features to focus on seem to be sqft_living, , grade , view , lat,** 
 
-![](\README_images\Lasso_Select1.png)
+![](README_images\Lasso_Select1.png)
 
 #### Lasso model was used to confirm the same
 
-![](\README_images\Lasso_Select-1604680131206.png)
+![](README_images\Lasso_Select-1604680131206.png)
 
 
 
@@ -82,7 +82,7 @@ The following process were carried out :
 
 - 
 
-- ![](\README_images\Partial Regression Sqft Living.png)
+- ![](README_images\Partial Regression Sqft Living.png)
 
   **Observation**
 
@@ -111,18 +111,18 @@ The following process were carried out :
 
 - Both skew and kurtosis can be analyzed through descriptive statistics. Acceptable values of skewness fall between − 3 and + 3, and kurtosis is appropriate from a range of − 10 to + 10 when utilizing SEM (Brown, 2006).
 
-![](\README_images\n.png)
+![](README_images\n.png)
 
 ![](README_imges\Normalisation.png)
 
 - **KDE - Plotting histogram _ to check the distribution of predictors**
 
-![](\README_imges\KDE.png)
+![](README_images\KDE.png)
 
 - Testing linearity assumption
 - Jointplot - Checking for Linearity 
 
-![](\README_imges\JointPlot.png)
+![](README_images\JointPlot.png)
 
 
 
@@ -136,3 +136,7 @@ The following process were carried out :
 - The pre transformation and post transformation values in these features did not show much difference so it can be confirmed that the features like Sqft living , grade and view play a vital role in influencing the price and sale of the property
 - Considering that the co-linearity between these features are the least or negligible we can easily confirm the accuracy of the model
 - Finally As we know linear regression is not the best model for this dataset it will be advisable to run other regressors to check better options
+
+
+
+**Thank You**
