@@ -62,7 +62,7 @@ The following process were carried out :
 
 #### Lasso model was used to confirm the same
 
-![](README_images/Lasso_Select-1604680131206.png)
+![](README_images/Lasso_Select.png)
 
 
 
