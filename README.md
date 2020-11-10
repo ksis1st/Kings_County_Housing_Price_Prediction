@@ -62,7 +62,7 @@ The following process were carried out :
 
 #### Lasso model was used to confirm the same
 
-![](README_images/Lasso_Select.png)
+![](README_Images/Lasso_Select.png)
 
 
 
@@ -82,7 +82,7 @@ The following process were carried out :
 
 - 
 
-- ![](README_images/Partial Regression Sqft Living.png)
+- ![](README_Images/Partial%20Regression%20Sqft%20Living.png)
 
   **Observation**
 
@@ -111,9 +111,9 @@ The following process were carried out :
 
 - Both skew and kurtosis can be analyzed through descriptive statistics. Acceptable values of skewness fall between − 3 and + 3, and kurtosis is appropriate from a range of − 10 to + 10 when utilizing SEM (Brown, 2006).
 
-![](README_images/n.png)
+![](README_Images/n.png)
 
-![](README_imges/Normalisation.png)
+![](README_Images/Normalisation.png)
 
 - **KDE - Plotting histogram _ to check the distribution of predictors**
 
@@ -122,7 +122,7 @@ The following process were carried out :
 - Testing linearity assumption
 - Jointplot - Checking for Linearity 
 
-![](README_images/JointPlot.png)
+![](README_Images/JointPlot.png)
 
 
 
