@@ -52,17 +52,17 @@ The following process were carried out :
 - Feature Scaling: Transforming the train and test set, and add on the id and price variables
 - Multicollinearity :using heat map for checking multi_collinearity between variables
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\Col_Rel.png)
+![](\README_images\Col_Rel.png)
 
 **Over all Observation: here we can see that there is a strong & positive monotonic relationship between the price_in_millions and other features like sqft_living , sqft_above & sqft_living15**
 
 **The important features to focus on seem to be sqft_living, , grade , view , lat,** 
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\Lasso_Select1.png)
+![](\README_images\Lasso_Select1.png)
 
 #### Lasso model was used to confirm the same
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\Lasso_Select-1604680131206.png)
+![](\README_images\Lasso_Select-1604680131206.png)
 
 
 
@@ -82,7 +82,7 @@ The following process were carried out :
 
 - 
 
-- ![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\Partial Regression Sqft Living.png)
+- ![](\README_images\Partial Regression Sqft Living.png)
 
   **Observation**
 
@@ -111,18 +111,28 @@ The following process were carried out :
 
 - Both skew and kurtosis can be analyzed through descriptive statistics. Acceptable values of skewness fall between − 3 and + 3, and kurtosis is appropriate from a range of − 10 to + 10 when utilizing SEM (Brown, 2006).
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\n.png)
+![](\README_images\n.png)
 
-![Normalisation](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\Normalisation.png)
+![](README_imges\Normalisation.png)
 
 - **KDE - Plotting histogram _ to check the distribution of predictors**
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\KDE.png)
+![](\README_imges\KDE.png)
 
 - Testing linearity assumption
 - Jointplot - Checking for Linearity 
 
-![](C:\Users\DELL\FLATIRON_LEARN\Project_MS_Studio\README_imges\JointPlot.png)
+![](\README_imges\JointPlot.png)
 
-#### 
 
+
+### Interpretation final model5
+
+- Based on the target variable : price_in_millions, the multi co-linearity and some other details lets interpret the statistical significance of Model5 - the P-Value, the overall F statistics, the R squared value etc
+- The Adjusted R Square post penalizing R squared values that include non useful predictors is 0.587 which is same as the R squared which indicate that the model is a well fitted model and is not blowing the overall model performance out of proportion. Also its indicating the model has relevant features
+- the intercept value in this case is -0.0710
+- As we see the P values is Zero which is better than the targeted value of 0.05 and the f statistics value is large we can reject the null hypothesis as we can see the evidence that the selected features and the target variable have a linear relationship
+- As we can see the T value of Sqft living -View & grade dominate the rejection of the null hypothesis and accept the alternate hypothesis with their high T values and 0 P value
+- The pre transformation and post transformation values in these features did not show much difference so it can be confirmed that the features like Sqft living , grade and view play a vital role in influencing the price and sale of the property
+- Considering that the co-linearity between these features are the least or negligible we can easily confirm the accuracy of the model
+- Finally As we know linear regression is not the best model for this dataset it will be advisable to run other regressors to check better options
