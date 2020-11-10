@@ -52,13 +52,13 @@ The following process were carried out :
 - Feature Scaling: Transforming the train and test set, and add on the id and price variables
 - Multicollinearity :using heat map for checking multi_collinearity between variables
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_Images/Col_Rel.png)
+![](README_Images/Col_Rel.png)
 
 **Over all Observation: here we can see that there is a strong & positive monotonic relationship between the price_in_millions and other features like sqft_living , sqft_above & sqft_living15**
 
 **The important features to focus on seem to be sqft_living, , grade , view , lat,** 
 
-![](https://github.com/ksis1st/Kings_County_Housing_Price_Prediction/blob/main/README_images\Lasso_Select1.png)
+![](README_Images/Lasso_Select1.png)
 
 #### Lasso model was used to confirm the same
 
